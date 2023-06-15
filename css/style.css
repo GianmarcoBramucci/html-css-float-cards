@@ -4,6 +4,7 @@
     margin: 0;    
     padding: 0;
 }
+/* general */
 header, main{
     text-align: center;
     margin-left: 70px;
@@ -14,11 +15,23 @@ header, main{
     padding: 20px;
     overflow: auto;
     clear: both;
+    display: flex;
+    justify-content: center;
 }
 
 .inner-container {
+    width: 430px;
+    height: 120px;
     margin-right: 10px;
-    padding: 50px;
     float: left;
     border: 2px solid red;
+    background-color: #0f0e17;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+img{
+    height: 100%;
+    float: left;
+    margin-right:10px;
 }
